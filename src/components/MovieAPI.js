@@ -47,7 +47,6 @@ const MovieAPI = () => {
 
     const isSmallScreen = useMediaQuery((theme) => theme.breakpoints.down('sm'));
 
-
     return (
         <Box>
 
