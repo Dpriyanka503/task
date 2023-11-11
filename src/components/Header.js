@@ -7,6 +7,7 @@ import { Box, Card, CardContent } from "@mui/material";
 import { Stack, Button } from "@mui/material";
 import { useState } from "react";
 
+
 const Header = () => {
     const [companyInfoVisible, setCompanyInfoVisible] = useState(false);
 

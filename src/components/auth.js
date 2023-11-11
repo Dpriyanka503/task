@@ -44,7 +44,6 @@ export default function Auth() {
     const [formData, setFormData] = useState(initialData);
     const [isSignup, setIsSignUp] = useState(true);
     let text = isSignup ? "Sign Up" : "Sign In";
-
     
     const handleChange = (e) => {
         setFormData({

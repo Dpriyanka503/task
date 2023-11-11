@@ -57,7 +57,7 @@ const MovieAPI = () => {
                 {movieData &&
                     movieData.map((movie) => (
                         <Grid item key={movie._id} xs={12} sm={12} md={12}>
-                            <Card sx={{ display: 'flex', flexDirection: isSmallScreen ? 'column' : 'row', height: '100%', maxWidth: '700px' }}>
+                            <Card sx={{ display: 'flex', flexDirection: isSmallScreen ? 'column' : 'row', margin: 'auto', maxWidth: '700px' }}>
 
                                 <Grid container alignItems="center" justifyContent="center">
                                     <Grid item>
@@ -98,7 +98,7 @@ const MovieAPI = () => {
                                 </CardContent>
 
                             </Card>
-                            <Button fullWidth variant="contained" style={{ marginTop: 'auto', maxWidth: '700px' }}>Watch Trailer</Button>
+                            <Button fullWidth variant="contained" style={{  display: 'flex',margin: 'auto', maxWidth: '700px' }}>Watch Trailer</Button>
                         </Grid>
                     ))}
             </Grid>
